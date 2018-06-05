@@ -1,6 +1,6 @@
                                                   记录搭建fabric1.1搭建过程
 1.Docker安装
-如果在服务器上有旧版的docker，需要先执行卸载操作，如下：
+如果在服务器上有旧版的docker，需要先执行卸载操作，如下：                                                                                     
 sudo yum remove docker  docker-common  docker-selinux  docker-engine
 随后开始安装Docker CE，命令如下：
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
